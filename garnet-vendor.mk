@@ -44,6 +44,8 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/garnet/proprietary/system_ext/lib/libmmrtpencoder.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/libmmrtpencoder.so \
     vendor/xiaomi/garnet/proprietary/system_ext/lib/libqcc.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/libqcc.so \
     vendor/xiaomi/garnet/proprietary/system_ext/lib/libqcc_file_agent_sys.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/libqcc_file_agent_sys.so \
+    vendor/xiaomi/garnet/proprietary/system_ext/lib/libqccdme.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/libqccdme.so \
+    vendor/xiaomi/garnet/proprietary/system_ext/lib/libqccfileservice.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/libqccfileservice.so \
     vendor/xiaomi/garnet/proprietary/system_ext/lib/libwfdavenhancements.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/libwfdavenhancements.so \
     vendor/xiaomi/garnet/proprietary/system_ext/lib/libwfdcommonutils.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/libwfdcommonutils.so \
     vendor/xiaomi/garnet/proprietary/system_ext/lib/libwfdconfigutils.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/libwfdconfigutils.so \
@@ -77,6 +79,8 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/garnet/proprietary/system_ext/lib64/libmmrtpencoder.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libmmrtpencoder.so \
     vendor/xiaomi/garnet/proprietary/system_ext/lib64/libqcc.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libqcc.so \
     vendor/xiaomi/garnet/proprietary/system_ext/lib64/libqcc_file_agent_sys.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libqcc_file_agent_sys.so \
+    vendor/xiaomi/garnet/proprietary/system_ext/lib64/libqccdme.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libqccdme.so \
+    vendor/xiaomi/garnet/proprietary/system_ext/lib64/libqccfileservice.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libqccfileservice.so \
     vendor/xiaomi/garnet/proprietary/system_ext/lib64/libwfdclient.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libwfdclient.so \
     vendor/xiaomi/garnet/proprietary/system_ext/lib64/libwfdcommonutils.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libwfdcommonutils.so \
     vendor/xiaomi/garnet/proprietary/system_ext/lib64/libwfdconfigutils.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libwfdconfigutils.so \
@@ -2832,6 +2836,7 @@ PRODUCT_PACKAGES += \
     EuiccGoogle \
     HotwordEnrollmentOKGoogleHEXAGON_WIDEBAND \
     HotwordEnrollmentXGoogleHEXAGON_WIDEBAND \
+    PowerOffAlarm \
     ImsRcsService \
     QCC \
     QtiTelephony \
@@ -2845,6 +2850,7 @@ PRODUCT_PACKAGES += \
     uimservicelibrary \
     com.android.hotwordenrollment.common.util \
     qcrilhook \
+    vendor.qti.hardware.alarm-V1.0-java \
     vendor.qti.ims.connection-V1.0-java \
     vendor.qti.ims.factory-V2.0-java \
     vendor.qti.ims.factory-V2.1-java \
